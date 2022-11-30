@@ -1,0 +1,29 @@
+
+.logo {
+    height: 400px;
+    width: 600px;
+}
+
+lu {
+    display: list-item;
+    
+}
+button {
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.inscripcion {
+   width: 300px;
+   display: inline-block;
+  
+  background-color: aqua;
+  margin: 0 auto;
+  
+}
+h1 {
+    font-style: italic;
+    font-size: 10cm;
+    
+}
