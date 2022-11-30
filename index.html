@@ -8,14 +8,17 @@
   <header> 
   </header>
 	<body>
+        <fieldset>
+            <h1> Bienvenido a la academia</h1>
+        </fieldset>
         
-        <h1> Bienvenido a la academia</h1>
         <p>Aqui aprenderás a ser un verdadero héroe, pero recuerda siempre que un gran poder conlleva una gran resposabilidad.</p>
-        <aside>     
+             <aside>
                    <img class="logo" src="https://th.bing.com/th/id/R.ed4200048635c67b0552d1374f09715a?rik=xcMKdu39687ibQ&pid=ImgRaw&r=0">
-
-        
-        <form action="/" class="inscripcion">
+                
+                   </aside> 
+                   <section class="inscripcion">
+        <form action="/" >
       <label for="nombre">
         <p>Introduce tu nombre</p>
         <input name="nombre" type="text" required placeholder="introduce un texto">
@@ -32,15 +35,16 @@
         <p>Contraseña</p>
         <input name="pasword" type="password" required placeholder="introduce una contraseña">
       </label>   
-    
+    <div class="lista">
       <lu>One lowercase character</lu>
       <lu>One uppercase character</lu>
       <lu>One number</lu>
       <lu>One especial character</lu>
       <lu>8 character minimum</lu>
-      
-      <button>Alistarse</button>
+    </div>
+      <input type="submit" value="Enviar formulario"></input>
 		</form>
-    </aside> 
+    </section>
+    
 	</body>
 </html>

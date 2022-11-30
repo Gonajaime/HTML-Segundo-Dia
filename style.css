@@ -1,29 +1,38 @@
-
 .logo {
-    height: 400px;
-    width: 600px;
+  height: 400px;
+  width: 600px;
+  display: inline-block;
+}
+aside {
+  position: static;
+  height: 400px;
+  width: 600px;
+  display: inline-block;
 }
 
 lu {
-    display: list-item;
-    
+  display: list-item;
 }
-button {
-    width: 150px;
-    height: 50px;
-    background-color: blueviolet;
-}
-
 .inscripcion {
-   width: 300px;
-   display: inline-block;
-  
+  width: 300px;
   background-color: aqua;
   margin: 0 auto;
-  
+  display: inline-block;
+}
+p {
+  font-style: italic;
+  text-align: center;
+  background-color: darkred;
+  color: rgb(252, 250, 250);
 }
 h1 {
-    font-style: italic;
-    font-size: 10cm;
-    
+  font-style: italic;
+  font-size: 3cm;
+
+  text-align: center;
+  color: rgb(252, 250, 250);
 }
+fieldset {
+  background-color: darkred;
+}
+
