@@ -1,23 +1,25 @@
-.logo {
-  height: 400px;
-  width: 600px;
-  display: inline-block;
-}
-aside {
-  position: static;
-  height: 400px;
-  width: 600px;
-  display: inline-block;
+.espacio {
+  border: 5px;
 }
 
-lu {
-  display: list-item;
+.logo {
+  height: 40%;
+  width: 50%;
+  float: left;
+}
+.lista1 {
+  padding-left: 30px;
+  float: right;
+}
+.lista2 {
+  padding-left: 30px;
+  float: left;
 }
 .inscripcion {
-  width: 300px;
   background-color: aqua;
-  margin: 0 auto;
-  display: inline-block;
+  float:right;
+  height: 40%;
+  width: 50%;
 }
 p {
   font-style: italic;
@@ -34,5 +36,13 @@ h1 {
 }
 fieldset {
   background-color: darkred;
+}
+lu {
+  display: list-item;
+}
+
+.button {
+  margin-top: 12px;
+  float:right;
 }
 
