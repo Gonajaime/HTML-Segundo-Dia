@@ -6,12 +6,11 @@
 
 }
 .lista1 {
-  padding-left: 30px;
   float: right;
 }
 .lista2 {
   padding-left: 30px;
-  margin-right: 3px;
+  margin-bottom: 13px;
 }
 .inscripcion {
   background-color: aqua;
