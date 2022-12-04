@@ -1,9 +1,9 @@
 
 
 .logo {
-  height: 40%;
+
   width: 50%;
-  float: left;
+
 }
 .lista1 {
   padding-left: 30px;
@@ -11,13 +11,11 @@
 }
 .lista2 {
   padding-left: 30px;
-  float: left;
+  margin-right: 3px;
 }
 .inscripcion {
   background-color: aqua;
   float:right;
-  height: 40%;
-  width: 50%;
 }
 p {
   font-style: italic;
@@ -39,8 +37,20 @@ lu {
   display: list-item;
 }
 
-.button {
-  margin-top: 12px;
-  float:right;
+.enlace {
+  color: rgb(243, 10, 204);
+}
+
+.enlace:hover{
+  color: red;
+}
+
+.enlace:active{
+  color: rgb(0, 140, 255);
+}
+
+.crearCuenta {
+  display: grid;
+  border-style: dotted;
 }
 
